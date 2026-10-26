@@ -7,11 +7,14 @@
     ReagentContainerBerryTeaPouch: 4
     ReagentContainerFruitTeaPouch: 4
     ReagentContainerDecafBlackTeaPouch: 4
+    ReagentContainerYorkshireTeaPouch: 4 # Euphoria - Barheru - moved from contraband inventory.
     ReagentContainerCoffeePouch: 4
     ReagentContainerDecafCoffeePouch: 4
+    ReagentContainerChocolate: 2 # Euphoria - Barheru - for easier hot chocolate.
     PaperCup: 10
     Teaspoon: 5
     DrinkMug: 6
+    DrinkTeacupEmpty: 6 # Euphoria - Barheru - added for tea parties
     Kettle: 3
     DrinkTeapotEmpty: 4
     DrinkGlass: 8
@@ -19,10 +22,10 @@
     FoodBoxBiscuitSimple: 2
     FoodBoxBiscuitOatmeal: 2
     FoodBoxBiscuitSugar: 2
-    PaperWrittenTeaGuide: 10 # Euphoria - M3739 - #485 - Originally 4294967295 for 'infinite'. No.
+    PaperWrittenTeaGuide: 2 # Euphoria - M3739 - #485 - Originally 4294967295 for 'infinite'. No. - Barheru - reduced to 2 - 10 was still too many. One for you, and one for when you lose it.
   contrabandInventory:
     DrinkMugRainbow: 1
-    ReagentContainerYorkshireTeaPouch: 4
+#    ReagentContainerYorkshireTeaPouch: 4 Euphoria - Barheru - moved out of contraband because as far as I can tell, it is just a drink you can't get any other way.
   emaggedInventory:
     ReagentContainerSyndicateTeaPouch: 1 # You ain't getting no more
     DrinkMugRed: 2
