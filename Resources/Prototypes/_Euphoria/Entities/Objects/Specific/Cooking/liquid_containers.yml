@@ -1,0 +1,27 @@
+- type: entity
+  name: sugarbowl
+  parent: BaseBeaker
+  description: Used to hold sugar in an appealing container.
+  id: Sugar bowl
+  components:
+  - type: Spillable
+    solution: beaker
+  - type: Sprite
+    sprite: _Euphoria/Objects/Misc/sugarbowl.rsi
+  - type: Item
+    size: Normal
+    sprite: _Euphoria/Objects/Misc/sugarbowl.rsi
+  - type: SolutionContainerManager
+    solutions:
+      beaker:
+        maxVol: 30
+        reagents:
+        - ReagentId: Sugar
+          Quantity: 30
+  - type: Appearance
+  - type: PhysicalComposition
+    materialComposition:
+      Glass: 100
+  - type: StaticPrice
+    price: 25
+
