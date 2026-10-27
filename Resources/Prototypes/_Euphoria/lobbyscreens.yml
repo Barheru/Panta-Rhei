@@ -23,5 +23,5 @@
   background: /Textures/_Euphoria/LobbyScreens/The_Last_Supper.png
   
 - type: lobbyBackground
-  id: StelleEpi
-  background: /Textures/_Euphoria/LobbyScreens/Stelle_Epi.png
+  id: CriticalAnomaly
+  background: /Textures/_Euphoria/LobbyScreens/Critical_Anomaly.png
