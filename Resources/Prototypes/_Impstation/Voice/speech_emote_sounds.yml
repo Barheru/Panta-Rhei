@@ -197,7 +197,7 @@
     HarpyCaw:
       path: HarpyCaws
     Chirp:
-      path: ResomiChirps
+      path: HarpyChirps
     HarpySquawk: 
       collection: ResomiSquawk
     Coo:
@@ -206,6 +206,8 @@
       collection: ResomiCalls
     Scree:
       collection: ResomiScrees
+    Quack:
+      collection: HarpyQuacks
     # End Euphoria
       
 - type: emoteSounds
