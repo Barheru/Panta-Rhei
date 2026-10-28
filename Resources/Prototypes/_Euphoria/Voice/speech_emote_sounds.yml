@@ -39,10 +39,14 @@
     Honk:
       path: /Audio/Animals/goose_honk.ogg
     HarpyCaw:
-      path: /Audio/_DV/Voice/Harpy/caw1.ogg
+      path: HarpyCaws
     Chirp:
-      path: /Audio/_DV/Voice/Harpy/chirp1.ogg
-    HarpySquawk: /Audio/_Starlight/Voice/Resomi/resomi_squawk_1.ogg
+      path: ResomiChirps
+    HarpySquawk: 
+      collection: HarpySquawks
+    Coo:
+      collection: HarpyCoos 
+    
 
 - type: emoteSounds
   id: MaleResomi
