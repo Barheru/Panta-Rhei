@@ -38,15 +38,6 @@
 #Starlight end
     Honk:
       path: /Audio/Animals/goose_honk.ogg
-    HarpyCaw:
-      path: HarpyCaws
-    Chirp:
-      path: ResomiChirps
-    HarpySquawk: 
-      collection: HarpySquawks
-    Coo:
-      collection: HarpyCoos 
-    
 
 - type: emoteSounds
   id: MaleResomi

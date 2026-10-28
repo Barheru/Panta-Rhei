@@ -193,6 +193,16 @@
       /Audio/_Impstation/Allulalo/allulalo_deathgasp.ogg
     Gulp: # Delta V
       path: /Audio/_Goobstation/Voice/gulpexotic.ogg
+    # Begin Euphoria - bird noises expansion
+    HarpyCaw:
+      path: HarpyCaws
+    Chirp:
+      path: ResomiChirps
+    HarpySquawk: 
+      collection: HarpySquawks
+    Coo:
+      collection: HarpyCoos 
+    # End Euphoria
       
 - type: emoteSounds
   id: Suppy
