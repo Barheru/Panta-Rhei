@@ -36,6 +36,8 @@
     Laugh:
       collection: ResomiLaugh
 #Starlight end
+    Honk:
+      path: /Audio/Animals/goose_honk.ogg
 
 - type: emoteSounds
   id: MaleResomi

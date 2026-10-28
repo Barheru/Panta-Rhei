@@ -127,7 +127,7 @@
   - type: Speech
     speechVerb: Parrot
     speechSounds: UnisexResomi
-    allowedEmotes: [ 'Chirp', 'Purr', 'Growl', 'HarpySquawk', 'HarpyCaw', 'Coo' ]
+    allowedEmotes: [ 'Chirp', 'Purr', 'Growl', 'HarpySquawk', 'HarpyCaw', 'Coo', 'Honk'] # Euphoria - added Honk for goose honking
   - type: Vocal # Floofstation - uncommented
     sounds:
       Male: MaleResomi
