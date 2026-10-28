@@ -38,6 +38,8 @@
 #Starlight end
     Honk:
       path: /Audio/Animals/goose_honk.ogg
+    HarpyQuack:
+      collection: HarpyQuacks
 
 - type: emoteSounds
   id: MaleResomi

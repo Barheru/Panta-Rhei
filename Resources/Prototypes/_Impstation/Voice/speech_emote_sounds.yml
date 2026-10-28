@@ -195,9 +195,9 @@
       path: /Audio/_Goobstation/Voice/gulpexotic.ogg
     # Begin Euphoria - bird noises expansion
     HarpyCaw:
-      path: HarpyCaws
+      collection: HarpyCaw
     Chirp:
-      path: HarpyChirps
+      collection: ResomiChirps
     HarpySquawk: 
       collection: ResomiSquawk
     Coo:
@@ -206,7 +206,7 @@
       collection: ResomiCalls
     Scree:
       collection: ResomiScrees
-    Quack:
+    HarpyQuack:
       collection: HarpyQuacks
     # End Euphoria
       
