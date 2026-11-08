@@ -6933,3 +6933,11 @@ Entries:
         uplink ones still do.
   id: 862
   time: '2026-11-08T02:49:28.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Add
+      message: >-
+        Added breast milk which can be used to make mother's cheese. It is now
+        produced by mammary glands in place of regular milk.
+  id: 863
+  time: '2026-11-08T02:50:06.0000000+00:00'
