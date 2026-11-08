@@ -1,15 +1,10 @@
 - type: entity
   name: sugarbowl
-  parent: BaseBeaker
+  parent: [DrinkBaseMaterialPorcelain, DrinkBase]
   description: Used to hold sugar in an appealing container.
   id: Sugar bowl
   components:
-  - type: Spillable
-    solution: beaker
   - type: Sprite
-    sprite: _Euphoria/Objects/Misc/sugarbowl.rsi
-  - type: Item
-    size: Normal
     sprite: _Euphoria/Objects/Misc/sugarbowl.rsi
   - type: SolutionContainerManager
     solutions:
@@ -19,9 +14,86 @@
         - ReagentId: Sugar
           Quantity: 30
   - type: Appearance
-  - type: PhysicalComposition
-    materialComposition:
-      Glass: 100
   - type: StaticPrice
     price: 25
+    
+- type: entity
+  name: caramexininbowl
+  parent: [DrinkBaseMaterialPorcelain, DrinkBase]
+  description: Like a sugar bowl, but for lizard sugar.
+  id: Caramexinin bowl
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Misc/caramexininbowl.rsi
+  - type: SolutionContainerManager
+    solutions:
+      beaker:
+        maxVol: 30
+        reagents:
+        - ReagentId: Caramexinin
+          Quantity: 30
+  - type: Appearance
+  - type: StaticPrice
+    price: 25
+    
+- type: entity
+  parent: [DrinkBaseMaterialMetal, DrinkBase]
+  id: DrinkCoffeepot
+  name: coffeepot
+  description: A solid, old fashioned coffee pot.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 100
+        reagents:
+        - ReagentId: Coffee
+          Quantity: 100
+  - type: Sprite
+    sprite: _Euphoria/Objects/Misc/coffeepot.rsi
+  - type: FitsInDispenser
+    solution: drink
+
+- type: entity
+  parent: DrinkCoffeepot
+  id: DrinkCoffeepotEmpty
+  name: coffeepot
+  description: A solid, old fashioned coffee pot.
+  suffix: Empty
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 100
+        
+- type: entity
+  parent: [DrinkBaseMaterialPorcelain, DrinkBase]
+  id: DrinkHotchocolatepot
+  name: hotchocolatepot
+  description: A hot chocolate pot, after the Edwardian style. True beverage enjoyers know that the difference between a hot chocolate pot and a teapot is that the spout of the hot chocolate pot is at the top, whereas the spout of a teapot is at the base. Normal people know that this is splitting hairs.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 100
+        reagents:
+        - ReagentId: HotCocoa
+          Quantity: 100
+  - type: Sprite
+    sprite: _Euphoria/Objects/Misc/hotchocolatepot.rsi
+  - type: FitsInDispenser
+    solution: drink
+    
+- type: entity
+  parent: DrinkHotchocolatepot
+  id: DrinkHotchocolatepotEmpty
+  name: hotchocolatepot
+  description: A hot chocolate pot, after the Edwardian style. True beverage enjoyers know that the difference between a hot chocolate pot and a teapot is that the spout of the hot chocolate pot is at the top, whereas the spout of a teapot is at the base. Normal people know that this is splitting hairs.
+  suffix: Empty
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 100
+
 
