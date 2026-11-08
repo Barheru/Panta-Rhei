@@ -1,8 +1,8 @@
 - type: entity
-  name: sugarbowl
+  name: sugar bowl
   parent: [DrinkBaseMaterialPorcelain, DrinkBase]
   description: Used to hold sugar in an appealing container.
-  id: Sugar bowl
+  id: Sugarbowl
   components:
   - type: Sprite
     sprite: _Euphoria/Objects/Misc/sugarbowl.rsi
@@ -18,10 +18,10 @@
     price: 25
     
 - type: entity
-  name: caramexininbowl
+  name: caramexinin bowl
   parent: [DrinkBaseMaterialPorcelain, DrinkBase]
   description: Like a sugar bowl, but for lizard sugar.
-  id: Caramexinin bowl
+  id: Caramexininbowl
   components:
   - type: Sprite
     sprite: _Euphoria/Objects/Misc/caramexininbowl.rsi
@@ -37,9 +37,9 @@
     price: 25
     
 - type: entity
+  name: coffee pot
   parent: [DrinkBaseMaterialMetal, DrinkBase]
   id: DrinkCoffeepot
-  name: coffeepot
   description: A solid, old fashioned coffee pot.
   components:
   - type: SolutionContainerManager
@@ -55,9 +55,9 @@
     solution: drink
 
 - type: entity
+  name: coffee pot
   parent: DrinkCoffeepot
   id: DrinkCoffeepotEmpty
-  name: coffeepot
   description: A solid, old fashioned coffee pot.
   suffix: Empty
   components:
@@ -67,9 +67,9 @@
         maxVol: 100
         
 - type: entity
+  name: hot chocolate pot
   parent: [DrinkBaseMaterialPorcelain, DrinkBase]
   id: DrinkHotchocolatepot
-  name: hotchocolatepot
   description: A hot chocolate pot, after the Edwardian style. True beverage enjoyers know that the difference between a hot chocolate pot and a teapot is that the spout of the hot chocolate pot is at the top, whereas the spout of a teapot is at the base. Normal people know that this is splitting hairs.
   components:
   - type: SolutionContainerManager
@@ -85,9 +85,9 @@
     solution: drink
     
 - type: entity
+  name: hot chocolate pot
   parent: DrinkHotchocolatepot
   id: DrinkHotchocolatepotEmpty
-  name: hotchocolatepot
   description: A hot chocolate pot, after the Edwardian style. True beverage enjoyers know that the difference between a hot chocolate pot and a teapot is that the spout of the hot chocolate pot is at the top, whereas the spout of a teapot is at the base. Normal people know that this is splitting hairs.
   suffix: Empty
   components:

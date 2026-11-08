@@ -14,7 +14,6 @@
     PaperCup: 10
     Teaspoon: 5
     DrinkMug: 6
-    DrinkTeacupEmpty: 6 # Euphoria - Barheru - added for tea parties
     Kettle: 3
     DrinkTeapotEmpty: 3 # Euphoria - Barheru - changed from quantity 4 to 3 due to stock quality update, and addition of coffee pots and hot chocolate pots.
     DrinkGlass: 8
@@ -23,6 +22,12 @@
     FoodBoxBiscuitOatmeal: 2
     FoodBoxBiscuitSugar: 2
     PaperWrittenTeaGuide: 3 # Euphoria - M3739 - #485 - Originally 4294967295 for 'infinite'. No. - Barheru - reduced to 3 - 10 was still too many when it got into restocks, stock quality change will preserve this.
+    # Begin Euphoria additions 
+    DrinkTeacupEmpty: 6
+    DrinkCoffeepotEmpty: 3 
+    DrinkHotchocolatepotEmpty: 3
+    Sugarbowl: 2
+    Caramexininbowl: 2
   contrabandInventory:
     DrinkMugRainbow: 1
 #    ReagentContainerYorkshireTeaPouch: 4 Euphoria - Barheru - moved out of contraband because as far as I can tell, it is just a drink you can't get any other way.
