@@ -8,7 +8,7 @@
     sprite: _Euphoria/Objects/Misc/sugarbowl.rsi
   - type: SolutionContainerManager
     solutions:
-      beaker:
+      drink:
         maxVol: 30
         reagents:
         - ReagentId: Sugar
@@ -27,7 +27,7 @@
     sprite: _Euphoria/Objects/Misc/caramexininbowl.rsi
   - type: SolutionContainerManager
     solutions:
-      beaker:
+      drink:
         maxVol: 30
         reagents:
         - ReagentId: Caramexinin
