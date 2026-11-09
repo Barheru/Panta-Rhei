@@ -96,4 +96,40 @@
       drink:
         maxVol: 100
 
+- type: entity
+  name: creamer
+  parent: [DrinkBaseMaterialPorcelain, DrinkBase]
+  description: Holds milk for tea. Contrary to popular belief, cream is not traditionally taken in tea, but rather milk, due to the lower percentage of fat.
+  id: Creamer
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Misc/creamer.rsi
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 15
+        reagents:
+        - ReagentId: Milk
+          Quantity: 15
+  - type: Appearance
+  - type: StaticPrice
+    price: 25
 
+- type: entity
+  name: special creamer
+  parent: [DrinkBaseMaterialPorcelain, DrinkBase]
+  description: This creamer does not hold milk, unless your definition of milk is "white and from an animal", in which case—sure, this holds milk.
+  id: SpecialCreamer
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Misc/specialcreamer.rsi
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 15
+        reagents:
+        - ReagentId: Cum
+          Quantity: 15
+  - type: Appearance
+  - type: StaticPrice
+    price: 25
