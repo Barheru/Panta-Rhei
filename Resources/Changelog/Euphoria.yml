@@ -6949,3 +6949,9 @@ Entries:
         thresholds by 90%. Be careful that you don't ass-slap somebody to death.
   id: 864
   time: '2026-11-08T09:33:22.0000000+00:00'
+- author: BlitzTheSquishy
+  changes:
+    - type: Fix
+      message: Lots of markings now have proper names!
+  id: 865
+  time: '2026-11-09T03:24:16.0000000+00:00'
