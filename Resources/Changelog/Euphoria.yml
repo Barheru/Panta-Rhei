@@ -7008,3 +7008,9 @@ Entries:
         filing systems.
   id: 869
   time: '2026-11-09T13:22:58.0000000+00:00'
+- author: deltaSpawn0040
+  changes:
+    - type: Fix
+      message: Log walls can be properly deconstructed.
+  id: 870
+  time: '2026-11-09T13:23:34.0000000+00:00'
