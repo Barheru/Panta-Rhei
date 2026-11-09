@@ -7014,3 +7014,9 @@ Entries:
       message: Log walls can be properly deconstructed.
   id: 870
   time: '2026-11-09T13:23:34.0000000+00:00'
+- author: M3739
+  changes:
+    - type: Tweak
+      message: New logo and icon. Fresh coat of paint!
+  id: 871
+  time: '2026-11-09T13:28:30.0000000+00:00'
