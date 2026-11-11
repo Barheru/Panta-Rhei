@@ -10,19 +10,19 @@
     ReagentContainerCoffeePouch: 2
     ReagentContainerDecafCoffeePouch: 2
     # End Euphoria quantity tweaks
-    ReagentContainerYorkshireTeaPouch: 2 # Euphoria - Barheru - moved from contraband inventory.
+    ReagentContainerYorkshireTeaPouch: 2 # Euphoria - Barheru - #1249 - moved from contraband inventory.
     ReagentContainerChocolate: 2 # 
     PaperCup: 10
     Teaspoon: 5
     DrinkMug: 6
     Kettle: 3
-    DrinkTeapotEmpty: 3 # Euphoria - Barheru - changed from quantity 4 to 3 due to stock quality update and addition of coffee pots and hot chocolate pots.
+    DrinkTeapotEmpty: 3 # Euphoria - Barheru - #1249 - changed from quantity 4 to 3 due to stock quality update and addition of coffee pots and hot chocolate pots.
     DrinkGlass: 8
 #    ChemistryHotplateFlatpack: 5 # Euphoria - M3739 - #485 - We don't have this.
     FoodBoxBiscuitSimple: 2
     FoodBoxBiscuitOatmeal: 2
     FoodBoxBiscuitSugar: 2
-    PaperWrittenTeaGuide: 3 # Euphoria - M3739 - #485 - Originally 4294967295 for 'infinite'. No. - Barheru - reduced to 3 - 10 was still too many when it got into restocks, stock quality change will preserve this.
+    PaperWrittenTeaGuide: 3 # Euphoria - M3739 - #485 - Originally 4294967295 for 'infinite'. No. - Barheru - #1249 - reduced to 3 - 10 was still too many when it got into restocks, stock quality change will preserve this.
     # Begin Euphoria additions 
     DrinkTeacupEmpty: 6
     DrinkCoffeepotEmpty: 3 
@@ -33,8 +33,8 @@
     # End Euphoria Additions
   contrabandInventory:
     DrinkMugRainbow: 1
-    SpecialCreamer: 1 # Euphoria - Barheru - for the whimsy
-#    ReagentContainerYorkshireTeaPouch: 4 Euphoria - Barheru - moved out of contraband because as far as I can tell, it is just a drink you can't get any other way.
+    SpecialCreamer: 1 # Euphoria - Barheru - #1249 - for the whimsy
+#    ReagentContainerYorkshireTeaPouch: 4 Euphoria - Barheru - #1249 - moved out of contraband because as far as I can tell, it is just a drink you can't get any other way.
   emaggedInventory:
     ReagentContainerSyndicateTeaPouch: 1 # You ain't getting no more
     DrinkMugRed: 2

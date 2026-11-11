@@ -5,6 +5,6 @@
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockBaristaFilled
-  cost: 1300
+  cost: 2000 # Euphoria - Barheru - 1249- added many things, increased price
   category: cargoproduct-category-name-service
   group: market
