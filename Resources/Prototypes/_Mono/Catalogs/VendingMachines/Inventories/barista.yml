@@ -1,21 +1,22 @@
 - type: vendingMachineInventory
   id: BaristaVendInventory
   startingInventory:
-    ReagentContainerBlackTeaPouch: 4
-    ReagentContainerGreenTeaPouch: 4
-    ReagentContainerChamomileTeaPouch: 4
-    ReagentContainerBerryTeaPouch: 4
-    ReagentContainerFruitTeaPouch: 4
-    ReagentContainerDecafBlackTeaPouch: 4
-    ReagentContainerYorkshireTeaPouch: 4 # Euphoria - Barheru - moved from contraband inventory.
-    ReagentContainerCoffeePouch: 4
-    ReagentContainerDecafCoffeePouch: 4
-    ReagentContainerChocolate: 2 # Euphoria - Barheru - for easier hot chocolate.
+    ReagentContainerBlackTeaPouch: 2 # Begin Euphoria quantity tweaks - decreased quantity due to stock quality changes.
+    ReagentContainerGreenTeaPouch: 2 
+    ReagentContainerChamomileTeaPouch: 2
+    ReagentContainerBerryTeaPouch: 2
+    ReagentContainerFruitTeaPouch: 2
+    ReagentContainerDecafBlackTeaPouch: 2
+    ReagentContainerCoffeePouch: 2
+    ReagentContainerDecafCoffeePouch: 2
+    # End Euphoria quantity tweaks
+    ReagentContainerYorkshireTeaPouch: 2 # Euphoria - Barheru - moved from contraband inventory.
+    ReagentContainerChocolate: 2 # 
     PaperCup: 10
     Teaspoon: 5
     DrinkMug: 6
     Kettle: 3
-    DrinkTeapotEmpty: 3 # Euphoria - Barheru - changed from quantity 4 to 3 due to stock quality update, and addition of coffee pots and hot chocolate pots.
+    DrinkTeapotEmpty: 3 # Euphoria - Barheru - changed from quantity 4 to 3 due to stock quality update and addition of coffee pots and hot chocolate pots.
     DrinkGlass: 8
 #    ChemistryHotplateFlatpack: 5 # Euphoria - M3739 - #485 - We don't have this.
     FoodBoxBiscuitSimple: 2
