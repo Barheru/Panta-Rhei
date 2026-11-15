@@ -7200,3 +7200,11 @@ Entries:
         Assembler Flatpack.
   id: 891
   time: '2026-11-14T22:53:30.0000000+00:00'
+- author: JaDiDo
+  changes:
+    - type: Tweak
+      message: >-
+        patch for voyager adressing missing gear for jobs and wrong airlock
+        access
+  id: 892
+  time: '2026-11-15T07:15:51.0000000+00:00'
