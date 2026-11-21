@@ -202,7 +202,7 @@
   - type: Barotrauma
     damage:
       types:
-        Blunt: 0.50
+        Blunt: 1.0 #Euphoria change: Doubled from 0.5 to 1.0
         Heat: 0.1
   - type: PassiveDamage
     allowedStates:
