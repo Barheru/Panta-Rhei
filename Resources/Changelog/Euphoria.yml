@@ -7252,3 +7252,9 @@ Entries:
         upgradeable crusher components.
   id: 897
   time: '2026-11-21T01:35:46.0000000+00:00'
+- author: JFerrix
+  changes:
+    - type: Tweak
+      message: Buffed space
+  id: 898
+  time: '2026-11-21T22:14:06.0000000+00:00'
