@@ -7244,3 +7244,11 @@ Entries:
       message: changed existing secborg modules to always include whistle and seclight
   id: 896
   time: '2026-11-21T01:32:05.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: >-
+        All watcher types should now drop the proper resource to make
+        upgradeable crusher components.
+  id: 897
+  time: '2026-11-21T01:35:46.0000000+00:00'
