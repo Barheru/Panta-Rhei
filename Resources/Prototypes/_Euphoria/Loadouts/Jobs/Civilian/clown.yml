@@ -1,14 +1,23 @@
+# Jumpsuit
 - type: loadout
   id: ClownGeiruDress
   equipment:
     jumpsuit: ClothingUniformJumpskirtGeiru
 
+# Shoes
 - type: loadout
   id: ClownGeiruShoes
   equipment:
     shoes: ClothingShoesGeiru
 
+# Gloves
 - type: loadout
   id: ClownGeiruGloves
   equipment:
     gloves: ClothingHandsGeiru
+
+# Mask
+- type: loadout
+  id: ClownNose
+  equipment:
+    gloves: ClothingMaskClownNose

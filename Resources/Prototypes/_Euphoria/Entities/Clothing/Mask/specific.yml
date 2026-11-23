@@ -1,0 +1,35 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskClownNose
+  name: clown nose
+  description: A prankster's nose for those who wish to show off their pretty or not so pretty faces.
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Clothing/Mask/clownnose.rsi
+  - type: Clothing
+    sprite: _Euphoria/Clothing/Mask/clownnose.rsi
+  - type: UseDelay
+    delay: 0.5
+  - type: EmitSoundOnUse
+    sound: &SoundBikeHorn
+      collection: BikeHorn
+      params:
+        variation: 0.125
+        pitch: 1.2 # Higher pitch than the Bike Horn for the funny
+  - type: EmitSoundOnLand
+    sound: *SoundBikeHorn
+  - type: EmitSoundOnTrigger
+    sound: *SoundBikeHorn
+  - type: EmitSoundOnActivate
+    sound: *SoundBikeHorn
+  - type: EmitSoundOnCollide
+    sound: *SoundBikeHorn
+  - type: Tag
+    tags:
+    - ClownMask
+    - WhitelistChameleon
+    - BikeHorn
+  - type: Tool
+    qualities:
+    - Honking
+    useSound: *SoundBikeHorn

@@ -80,6 +80,7 @@
   loadouts:
   - ClownMask
   - BlushingClownMask
+  - ClownNose # Euphoria
 
 ## Mime
 - type: loadoutGroup
