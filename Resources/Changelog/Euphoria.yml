@@ -7258,3 +7258,11 @@ Entries:
       message: Buffed space
   id: 898
   time: '2026-11-21T22:14:06.0000000+00:00'
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: >-
+        Added clown noses so clowns can show of their pretty (or not so pretty)
+        faces as they perform! Honk Honk!
+  id: 899
+  time: '2026-11-23T10:33:54.0000000+00:00'
