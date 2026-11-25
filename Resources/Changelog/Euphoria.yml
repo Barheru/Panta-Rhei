@@ -7272,3 +7272,11 @@ Entries:
       message: Fixed arachnids being able to take the claws trait even though they bite
   id: 900
   time: '2026-11-25T07:45:46.0000000+00:00'
+- author: P4nnant
+  changes:
+    - type: Tweak
+      message: rotated baguette in-bag sprites to be paralell with their bounding box
+    - type: Fix
+      message: made both baguettes 3x1
+  id: 901
+  time: '2026-11-25T07:46:34.0000000+00:00'
