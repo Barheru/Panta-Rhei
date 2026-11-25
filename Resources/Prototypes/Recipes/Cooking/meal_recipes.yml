@@ -1716,10 +1716,8 @@
   time: 5
   group: Cake
   solids:
-    FoodCakeBlueberry: 1
-    #FoodBerries: 2 # Euphroia - adding the other berries
-    FoodBlackberry: 1 # Euphroia
-    FoodRaspberry: 1 # Euphroia
+    FoodCakePlain: 1 # Euphoria - made the cake use plain cake since blueberries famously make things purple
+    FoodStrawberry: 3 # Euphoria - made the recipe use strawberries to match the sprite
   reagents:
     Milk: 10
 
