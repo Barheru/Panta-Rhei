@@ -7298,3 +7298,9 @@ Entries:
       message: The range and speed PKA upgrades should now work as intended.
   id: 903
   time: '2026-11-25T07:47:55.0000000+00:00'
+- author: BlitzTheSquishy
+  changes:
+    - type: Fix
+      message: Borgs can now see what ID icon you have again!
+  id: 904
+  time: '2026-11-25T07:48:47.0000000+00:00'
