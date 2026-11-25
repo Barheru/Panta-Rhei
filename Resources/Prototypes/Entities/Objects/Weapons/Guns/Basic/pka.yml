@@ -20,3 +20,5 @@
   - type: ContainerContainer
     containers:
       upgrades: !type:Container
+  - type: UpgradeableGunCost # Euphoria - let the base pka be upgradeable at a reduced capacity
+    maxCost: 75

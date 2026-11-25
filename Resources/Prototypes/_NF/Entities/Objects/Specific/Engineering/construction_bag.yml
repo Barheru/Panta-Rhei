@@ -29,6 +29,7 @@
     # Begin DeltaV Changes
       - CableCoil # Delta-v - Cable module is already a default. # Euphoria they are not default, the tag needs to be whitelisted
       - ConstructionMaterial
+      - FloorTile # Euphoria - let tiles go into the bag
     #  components:
     #  - ConstructionMaterials # Was not ported due to tag.
       components: # Euphoria - let boards go in here

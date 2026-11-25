@@ -19,7 +19,12 @@ public sealed class GunUpgradeRangeSystem : EntitySystem
             if (ammo is not {} uid)
                 continue;
 
-            Comp<TimedDespawnComponent>(uid).Lifetime *= ent.Comp.Coefficient;
+            // Euphoria changes start - fix this so it actually works
+            if (!TryComp<TimedDespawnComponent>(uid, out var despawn))
+                continue;
+
+            despawn.Lifetime *= ent.Comp.Coefficient;
+            // Euphoria changes end
         }
     }
 }

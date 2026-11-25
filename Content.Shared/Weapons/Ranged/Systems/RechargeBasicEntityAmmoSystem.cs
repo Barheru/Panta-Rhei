@@ -1,3 +1,4 @@
+using Content.Shared._Goobstation.Weapons.Ranged;
 using Content.Shared.Examine;
 using Content.Shared.Weapons.Ranged.Components;
 using Robust.Shared.Audio.Systems;
@@ -50,7 +51,13 @@ public sealed class RechargeBasicEntityAmmoSystem : EntitySystem
                 continue;
             }
 
-            recharge.NextCharge = recharge.NextCharge.Value + TimeSpan.FromSeconds(recharge.RechargeCooldown);
+            // Goobstation - pka changes
+            float multiplier = 1f;
+            var ev = new RechargeBasicEntityAmmoGetCooldownModifiersEvent(multiplier);
+            RaiseLocalEvent(uid, ref ev);
+
+            recharge.NextCharge = recharge.NextCharge.Value + TimeSpan.FromSeconds(recharge.RechargeCooldown * ev.Multiplier); // Euphoria - Was recharge.NextCharge = recharge.NextCharge.Value + TimeSpan.FromSeconds(recharge.RechargeCooldown);
+            // Goobstation - pka changes
             Dirty(uid, recharge);
         }
     }
