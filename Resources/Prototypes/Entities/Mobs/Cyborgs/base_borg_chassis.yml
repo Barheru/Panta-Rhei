@@ -376,7 +376,7 @@
     law: ObeyAI
   - type: Wires # DeltaV: NT borgs have a circuit panel
     layoutId: Cyborg
-  #- type: ShowCrewIcons # DeltaV - Disable crew icons
+  - type: ShowCrewIcons # Euphoria- Re-enabled
 #  - type: InteractionPopup # Floofstation - interaction verb system replaces popups
 #    interactSuccessSound:
 #      path: /Audio/Ambience/Objects/periodic_beep.ogg
