@@ -7310,3 +7310,9 @@ Entries:
       message: Made the Berry Delight recipe match the sprite
   id: 905
   time: '2026-11-25T08:08:40.0000000+00:00'
+- author: firemoos20
+  changes:
+    - type: Add
+      message: Added the frotdog >:)
+  id: 906
+  time: '2026-11-25T08:09:25.0000000+00:00'
