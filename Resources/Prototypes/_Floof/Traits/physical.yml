@@ -225,6 +225,7 @@
       - Resomi # Floof - they have claws after port of Goob changes
       - Feroxi # Floof - They bite. Nuff said.
       - Allulalo # Euphoria - They also bite. Nuff said.
+      - Arachnid # Euphoria - Spiders bite.
   effects:
     - !type:ModifyUnarmedTraitEffect
       soundHit:
