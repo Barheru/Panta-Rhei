@@ -7286,3 +7286,15 @@ Entries:
       message: added cannabis seeds to the contra inventory of the MegaSeed Servitor
   id: 902
   time: '2026-11-25T07:47:11.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: Construction bags should now be able to pick up tiles again.
+    - type: Tweak
+      message: >-
+        The base PKA in salvage lockers now can be upgraded, it now has a 75%
+        upgrade capacity.
+    - type: Fix
+      message: The range and speed PKA upgrades should now work as intended.
+  id: 903
+  time: '2026-11-25T07:47:55.0000000+00:00'
