@@ -316,3 +316,19 @@
     - bun
     - pineapple
     - meaty
+
+- type: entity
+  parent: FoodMealHotdog
+  id: FoodHotdogFrotdog
+  name: frotdog
+  description: A hotdog with one sausage is good however what if we added another?
+  components:
+  - type: Sprite
+    sprite: _Euphoria/Objects/Consumable/Food/hotdog.rsi
+    layers:
+    - state: frotdog
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - bun
+    - even more meat

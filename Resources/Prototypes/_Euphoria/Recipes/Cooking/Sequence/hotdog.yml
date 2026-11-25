@@ -459,3 +459,21 @@
     count:
       min: 2
       max: 3
+
+- type: metamorphRecipe
+  id: FoodHotdogFrotdog
+  key: Hotdog
+  result: FoodHotdogFrotdog
+  rules:
+  - !type:SequenceLength
+    range:
+      min: 2
+      max: 4
+  - !type:IngredientsWithTags # 2 Sausages
+    tags:
+    - Meat
+    - Cooked
+    - Sausage
+    count:
+      min: 2
+      max: 4
