@@ -7266,3 +7266,9 @@ Entries:
         faces as they perform! Honk Honk!
   id: 899
   time: '2026-11-23T10:33:54.0000000+00:00'
+- author: SapphicBingus
+  changes:
+    - type: Fix
+      message: Fixed arachnids being able to take the claws trait even though they bite
+  id: 900
+  time: '2026-11-25T07:45:46.0000000+00:00'
