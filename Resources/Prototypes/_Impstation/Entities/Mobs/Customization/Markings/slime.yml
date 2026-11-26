@@ -2,7 +2,7 @@
 - type: marking
   id: SlimeEyesDefault
   bodyPart: Eyes
-  groupWhitelist: [Slime]
+#  groupWhitelist: [Slime] - Euphoria - Marking unlock
   forcedColoring: true
   coloring:
     default:
@@ -15,7 +15,7 @@
 - type: marking
   id: SlimeEyesCyclops
   bodyPart: Eyes
-  groupWhitelist: [Slime]
+#  groupWhitelist: [Slime] - Euphoria - Marking unlock
   forcedColoring: true
   coloring:
     default:
@@ -28,7 +28,7 @@
 - type: marking
   id: SlimeEyesDroopyLeft
   bodyPart: Eyes
-  groupWhitelist: [Slime]
+#  groupWhitelist: [Slime] - Euphoria - Marking unlock
   forcedColoring: true
   coloring:
     default:
@@ -42,7 +42,7 @@
 - type: marking
   id: SlimeNose
   bodyPart: Snout
-  groupWhitelist: [Slime]
+#  groupWhitelist: [Slime] - Euphoria - Marking unlock
   forcedColoring: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/Slime/snout.rsi
@@ -55,7 +55,7 @@
 - type: marking
   id: SlimeMouth
   bodyPart: Head
-  groupWhitelist: [ Slime ]
+#  groupWhitelist: [ Slime ] - Euphoria - Marking unlock
   sprites:
   - sprite: _Impstation/Mobs/Customization/slime_parts.rsi
     state: mouth
@@ -63,7 +63,7 @@
 - type: marking
   id: SlimeEyeglow
   bodyPart: Eyes
-  groupWhitelist: [ Slime ]
+#  groupWhitelist: [ Slime ] - Euphoria - Marking unlock
   coloring:
     default:
       type:
@@ -76,7 +76,7 @@
 - type: marking
   id: SlimeEyesCyclopsGlowing
   bodyPart: Eyes
-  groupWhitelist: [ Slime ]
+#  groupWhitelist: [ Slime ] - Euphoria - Marking unlock
   coloring:
     default:
       type:
